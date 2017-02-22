@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <!-- Subject -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/subject"
+                style="@style/SubjectStyle"
+                tools:text="English" />
+        </LinearLayout>
+
+        <!-- FIRST QUARTER -->
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/QtStyle"
+                android:text="1st Qt" />
+
+            <TextView
+                android:id="@+id/quarter_1"
+                style="@style/GradeStyle"
+                tools:text="A+" />
+        </LinearLayout>
+
+        <!-- SECOND QUARTER -->
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/QtStyle"
+                android:text="2nd Qt" />
+
+            <TextView
+                android:id="@+id/quarter_2"
+                style="@style/GradeStyle"
+                tools:text="B+" />
+        </LinearLayout>
+
+        <!-- THIRD QUARTER -->
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/QtStyle"
+                android:text="3rd Qt" />
+
+            <TextView
+                android:id="@+id/quarter_3"
+                style="@style/GradeStyle"
+                tools:text="B+" />
+        </LinearLayout>
+
+        <!-- FOURTH QUARTER -->
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                style="@style/QtStyle"
+                android:text="4th Qt" />
+
+            <TextView
+                android:id="@+id/quarter_4"
+                style="@style/GradeStyle"
+                tools:text="B+" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

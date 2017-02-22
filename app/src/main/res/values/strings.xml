@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Android_ReportCard</string>
+    <string name="reportCard">Report Card</string>
+    <string name="reportCard_1">Report Card: Joe Chase</string>
+    <string name="reportCard_2">Report Card: Andy Moto</string>
+    <string name="reportCard_3">Report Card: Susie House</string>
+    <string name="reportCard_4">Report Card: Ally In</string>
+    <string name="student1">1. Joe Chase</string>
+    <string name="student2">2. Andy Moto</string>
+    <string name="student3">3. Susie House</string>
+    <string name="student4">4. Ally In</string>
+</resources>
