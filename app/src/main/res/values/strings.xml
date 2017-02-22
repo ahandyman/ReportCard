@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Android_ReportCard</string>
+    <string name="app_name">Report Card</string>
     <string name="reportCard">Report Card</string>
     <string name="reportCard_1">Report Card: Joe Chase</string>
     <string name="reportCard_2">Report Card: Andy Moto</string>
